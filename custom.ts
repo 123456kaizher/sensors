@@ -25,8 +25,10 @@ namespace sensors {
     export function isTriggered(pin: DigitalPin): boolean {
         return pins.digitalReadPin(pin) == 1;
     }
-
     // BLOCK 4: Blank (General)
-    //% blockId="Blank" block="Blank"
+    //% block=" Blank "
+    export function blankBlock(): void {
+        // This is intentionally left blank. 
+        // It does nothing when executed.
     
 }
